@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" class="contact-html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--fontawesome for icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Style-->
+    <link rel="stylesheet" href="../css/custom_animations.css">
+    <link rel="stylesheet" href="../css/index.css">
+    
+    
+    
+
+    <link rel="icon" type="image/x-icon" href="../assets/fav-icon/favicon.ico">
+
+    <title>Contact</title>
+
+</head>
+
+
+<!--Navigation Menu-->
+<header>
+
+    <div class="brand">
+        <a href="../index.html">Eden Island Villa</a>
+    </div>
+
+    <input type="checkbox"id="menu-bar">
+    <label for="menu-bar"><i class="fa-solid fa-bars"></i></label>
+
+
+    <nav class="navbar">
+        <ul>
+
+            <li><a href="../index.html">HOME</a></li>
+
+            <li><a href="./services.html">SERVICES</a></li>
+
+            <li><a href="#">RESERVATIONS <i class="fa fa-caret-down"></i></a>
+                <ul>
+
+                    <li><a href="./reservation.html">RESERVATIONS</a></li>
+                    <li><a href="./calender.html">CALENDER</a></li>
+                
+                </ul>
+            </li>
+
+            <li><a href="./reviews.html">REVIEWS</a></li>
+
+            <li><a href="#">BLOG <i class="fa fa-caret-down"></i></a>
+                <ul>
+
+                    <li><a href="./blog.html">BLOGS</a></li>
+                    <li><a href="./gallery.html">GALLERY</a></li>
+                
+                </ul>
+            </li>
+
+            <li><a href="#">ABOUT <i class="fa fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="./about.html">ABOUT US</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+
+                    <li><a href="./visit_jamaica.html">VISIT JAMAICA</a></li>
+                    
+                    <li>
+                        <a
+                            href="https://www.facebook.com/EdenIslandvilla"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <i class="fa-brands fa-facebook-f"></i> Facebook</a
+                        >
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/Edenislandvilla" target="_blank" rel="noreferrer"
+                            ><i class="fa-brands fa-twitter"></i> Twitter</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="https://www.instagram.com/edenislandvilla/"
+                            target="_blank"
+                            rel="noreferrer"
+                            ><i class="fa-brands fa-instagram-square"></i> Instagram</a
+                        >
+                    </li>
+                </ul>
+            </li>
+
+            <li class="hide">
+                <a href="https://www.facebook.com/EdenIslandvilla" target="_blank" rel="noreferrer"
+                    ><i class="fa-brands fa-facebook-f"></i
+                ></a>
+            </li>
+            <li class="hide">
+                <a href="https://twitter.com/Edenislandvilla" target="_blank" rel="noreferrer"
+                    ><i class="fa-brands fa-twitter"></i
+                ></a>
+            </li>
+            <li class="hide">
+                <a href="https://www.instagram.com/edenislandvilla/" target="_blank" rel="noreferrer"
+                    ><i class="fa-brands fa-instagram-square"></i
+                ></a>
+            </li>
+            <li class="hide">
+                <a href="tel:123-456-7890"
+                    ><i class="fa-solid fa-phone"></i> 123-456</a
+                >
+            </li>
+            
+        </ul>
+
+
+    </nav>
+
+
+</header>
+
+
+
+<!--Content-->
+<body class="contact-page-body">
+
+
+    <main>
+        
+       <section class="contact-page">
+
+        <div class="contact-page-title slide-down">
+            
+            <h3>Get in touch with us</h3>
+        </div>
+
+       
+
+        <div class="contact-section">
+            
+
+            <div class="contact-info slide-left">
+
+              <div><a href="tel:123-456-7890"><i class="fa-solid fa-phone"></i> 123-456-7890</a></div>
+
+              <div> <a href="mailto:edenislandvilla@mail.com"><i class="fa-solid fa-envelope"></i> edenislandvilla@mail.com</a></div>
+
+              <div><a href="https://goo.gl/maps/JPvzYKB7bjJrL63T8" target="_blank" rel="noreferrer"><i class="fa-solid fa-location-dot"></i> 5445 Gulf Blvd, St Pete Beach</a></div>
+
+              <div><i class="fas fa-clock"></i>24/7</div>
+
+            </div>
+
+            <div class="contact-form slide-up">
+
+              <h2>Send us a message</h2>
+
+              <form class="contact" id="contactform" >
+
+                <input type="text" id="name" name= "formName"class="text-box" placeholder="Name" required>
+
+                <input type="email" id="email" name= "formEmail"class="text-box" placeholder="Email" required>
+
+                <textarea id="message" name= "formMessage" rows="5" placeholder="Type your message here..." required></textarea>
+
+                <button onclick="validateCform()"  type="submit" class="send-btn" ">Submit</button>
+
+              </form>
+            </div>
+          </div>
+            
+           
+        </div>
+    </div>
+
+       </section>
+       
+    
+       
+    </main>
+    
+
+
+    <script src="../js/index.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>
